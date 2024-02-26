@@ -33,7 +33,7 @@ if($id_usuario==""){
 
 }else{
     //actualizamos el usuario
-    $sql = " UPDATE usuario SET cedula='$cedula', nombres='$nombres', apellidos='$apellidos', celular='$celular', correo='$correo', direccion='$correo', id_tipo_documento=$id_tipo_documento, id_perfil=$id_perfil, id_estado=$id_estado, login='$login', password='$password' WHERE id_usuario=$id_usuario";
+    $sql = " UPDATE usuario SET cedula='$cedula', nombres='$nombres', apellidos='$apellidos', celular='$celular', correo='$correo', direccion='$direccion', id_tipo_documento=$id_tipo_documento, id_perfil=$id_perfil, id_estado=$id_estado, login='$login', password='$password' WHERE id_usuario=$id_usuario";
 }
 
 
